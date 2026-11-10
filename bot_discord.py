@@ -21,7 +21,7 @@ import discord
 
 from bot_common import hitung
 
-TOKEN = os.environ["BSHLeRMFFrqY7OEvm3QOJ3Qyt5HEqHDt"]
+TOKEN = os.environ["DISCORD_TOKEN"]
 ALLOWED = {int(x) for x in os.environ.get("ALLOWED_IDS", "").split(",") if x.strip()}
 
 intents = discord.Intents.default()
